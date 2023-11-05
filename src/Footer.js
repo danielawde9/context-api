@@ -1,8 +1,7 @@
-import React, { useContext } from "react";
-import LanguageContext from "./LanguageContext";
+import React from "react";
 
 function Footer() {
-  const { toggleLanguage } = useContext(LanguageContext);
+  // add toggleLanguage function here
   return <button onClick={toggleLanguage}>Switch Language</button>;
 }
 

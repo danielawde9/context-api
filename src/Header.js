@@ -1,8 +1,7 @@
-import React, { useContext } from "react";
-import LanguageContext from "./LanguageContext";
+import React from "react";
 
 function Header() {
-  const { language } = useContext(LanguageContext);
+  // add context here
   return <h1>{language === "english" ? "Hello, World!" : "¡Hola, Mundo!"}</h1>;
 }
 
